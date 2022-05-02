@@ -86,4 +86,10 @@
   .service-container {
     min-width: 100%;
   }
+  .service-bar {
+    width: 100%;
+  }
+  .service-list {
+    width: 100%;
+  }
 }
