@@ -68,10 +68,10 @@ const Service = ({service,callback}) => {
                 <div className="service-name medium">{service.hostname}</div>
                 <div className="service-target medium">{service.target}</div>
                 <div className="service-timeout small">{service.timeout}</div>
-                <div className="service-auth small icon"><FiLock /></div>
+                <div className="service-auth small icon warning"><FiLock /></div>
                 <div className="service-ignore small icon" onClick={() => { showConfig(service.ignore, "ignore") }}><FiEyeOff /></div>
                 <div className="service-authOnly small icon" onClick={() => { showConfig(service.authOnly, "authOnly") }}><FiEye /></div>
-                <div className="service-delete small icon" onClick={removeService}><FiTrash /></div>
+                <div className="service-delete small icon danger" onClick={removeService}><FiTrash /></div>
             </div>
             {(showConf) ? (
                 <div className="service-conf">

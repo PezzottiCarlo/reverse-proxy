@@ -89,6 +89,14 @@
     color: #cdd9e5;
 }
 
+.warning{
+    color: #ffbd7f;
+}
+
+.danger{
+    color: #ff7f7f
+}
+
 @media only screen and (max-width: 900px) {
 
     .big {
